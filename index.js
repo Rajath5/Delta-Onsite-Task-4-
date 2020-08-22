@@ -57,7 +57,7 @@ const relativeArtistsList=async (id)=>{
       'Authorization':'Bearer '+token
     }
   })
-  console.log(id)
+
   const data=await result.json();
   return data.artists;
 }
